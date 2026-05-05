@@ -150,6 +150,7 @@ def a_star(start_state):
             return
 
         visited.add(str(current.state))
+        
 
         for child in generate_children(current):
 
